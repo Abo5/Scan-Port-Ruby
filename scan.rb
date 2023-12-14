@@ -9,9 +9,9 @@ puts "
 "
 puts "\e[0m" # reset color
 
-puts "\e[33mAuthor: Nazi\e[0m" # set color to yellow
-puts "\e[31mv 2.0\e[0m" # set color to red
-puts "Reach me out: instaGram/@8v_3"
+print "\e[33mAuthor: Nazi\e[0m" # set color to yellow
+print "         \e[31mv 2.0\e[0m" # set color to red
+print "          \e[32mReach me out: \e[0minstaGram/@8v_3\n\n"
 
 require 'socket'
 require 'timeout'
